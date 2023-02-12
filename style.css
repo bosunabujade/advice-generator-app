@@ -46,13 +46,13 @@ p {
 
 .divider {
     margin: 0 auto;
-    width: 850%;
+    width: 85%;
     padding: 20px 20px 5px 20px;
     
 }
 
 button {
-    background-color: hsl(150, 100%, 66%);
+    background-color: rgba(82, 255, 168, .8);
     border-radius: 50%;
     border: none;
     left: 1px;
@@ -74,4 +74,42 @@ button {
 
 .attribution a { 
     color: ghostwhite; 
+}
+
+@media only screen and (min-width:1200px) {
+    body {
+        height: 1500;
+        width: 1440px;
+    }
+    
+    .advice-box {
+        width: 35%;
+    }
+
+    p {
+        font-size: 28px;
+    }
+
+    button {
+        left: 0;
+        padding: 20px 10px;
+        top: 35px;
+        width: 15%;
+    }
+
+    button:hover {
+        background-color: rgba(82, 255, 168, 1);
+        box-shadow: 0 0 50px 10px rgba(82, 255, 168, .4);
+        ;
+        cursor: pointer;
+    }
+
+    .dice {
+        width: 50%;
+    }
+
+
+    .attribution {
+        width: 100%;
+    }
 }
